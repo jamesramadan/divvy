@@ -44,8 +44,6 @@ Divvy allows users to enter expenses as they are incurred, and calculates the be
 - Node 6.3.0
 - NPM 3.10.3
 
-## Development
-
 ### Installing Dependencies
 
 1. To download NPM dependencies, enter "npm install" into the command line.
