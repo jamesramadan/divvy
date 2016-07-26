@@ -1,5 +1,8 @@
 // Require for use with ES6
-import 'babel-polyfill';
+
+if (process.env.Node_ENV === 'development') {
+	require('babel-polyfill');
+}
 
 import configExpress from './config/express';
 import configRoutes from './routes';
